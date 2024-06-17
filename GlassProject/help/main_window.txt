@@ -1,0 +1,17 @@
+Ennek a programnak a segítségével lehetőség van egy szemüveg semantikus ábrájának az előállítására.
+
+A program főablaka az alábbi funkciókat tartalmazza:
+
+Fájl menü:
+    - Kimentés: A létrehozott (generált) szemüveg lementése külső állományba
+    - Betöltés: A korábban lementett szemüveg betöltése külső fájlból
+    - Törlés: A létrehozott, legenerált szemüveg törlése. Fontos, hogy ez lementett fájlt nem töröl, csak és kizárólag az éppen aktuálisan előállított szemüveg-példányt
+
+Létrehozás menü:
+    - Generálás: Véletlenszerű adatok segítségével létrehoz egy szemüveget
+    - Rajzolás: A megnyíló új ablakban a felhasználó az adatok megadásával létrehozhat egy új szemüveget
+    - Bemutatás: A létrehozott (generált) szemüveg adatainak megjelenítése. Ez nem grafikus megjelenítés, arra a rajzolás menüpont szolgál
+
+Információ menü:
+    - Segítség: A jelen funkcióleírás megjelenítése
+    - Névjegy: A program névjegyének megjelenítése

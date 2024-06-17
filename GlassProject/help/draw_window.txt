@@ -1,0 +1,11 @@
+Ebben az ablakban a szemüveg egyes tulajdonságait lehet megadni:
+
+Átmérő: a szemüveg lencséjének átmérője, mm-ben
+Lencsetávolság: a szemüveg két lencséjének távolsága, mm-ben
+Szárhossz: a szemüveg szárának hossza, mm-ben
+Szárvastagság: a szemüveg szárának vastagsága, mm-ben
+Lencsevastagság: a szemüveg lencséjének vastagsága, mm-ben
+Piros, Zöld, Kék: A szemüveg keretének színének megadása RGB paraméterek szerint
+
+[Rajzol] gomb: A fenti paraméterek szerint beállított szemüveg megrajzolása
+[Info] gomb: A jelenlegi segítség megjelenítése

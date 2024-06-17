@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.control.SeparatorMenuItem?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+                <menus>
+                    <Menu mnemonicParsing="false" text="Fájl">
+                        <items>
+                            <MenuItem fx:id="miSave" mnemonicParsing="false" text="Kimentés" />
+                            <MenuItem fx:id="miLoad" mnemonicParsing="false" text="Betöltés" />
+                            <MenuItem fx:id="miDelete" mnemonicParsing="false" text="Törlés" />
+                        </items>
+                    </Menu>
+                    <Menu mnemonicParsing="false" text="Létrehozás">
+                        <items>
+                            <MenuItem fx:id="miGenerate" mnemonicParsing="false" text="Generálás" />
+                            <MenuItem fx:id="miDraw" mnemonicParsing="false" text="Rajzolás" />
+                            <MenuItem fx:id="miShow" mnemonicParsing="false" text="Bemutatás" />
+                        </items>
+                    </Menu>
+                    <Menu mnemonicParsing="false" text="Információ">
+                        <items>
+                            <MenuItem fx:id="miHelp" mnemonicParsing="false" text="Segítség"/>
+                            <SeparatorMenuItem/>
+                            <MenuItem fx:id="miAbout" mnemonicParsing="false" text="Névjegy"/>
+                        </items>
+                    </Menu>
+                </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
